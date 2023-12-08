@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgotten password</title>
+    <link rel="icon" href="imgas/zomato logo.png">
+</head>
+<body>
+    <br><br>
+    <h2>Create new password</h2>
+    <form action="zomato_login.html">
+    <fieldset>
+            <legend>Forgotten password</legend>
+            <label for="user_name">User name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text"  id="user_name" required placeholder="User name/Email" pattern="[A-Z]{1}[a-z]{4}[@]{1}[0-9]{4}">&nbsp;&nbsp;<a href="zomato-otp.html" target="_blank">Send OTP</a><br><br>
+            <label for="otp">Enter OTP</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="otp" placeholder="Enter OTP" pattern="[0-9]{5}" required>&nbsp;&nbsp;<a href="Otp Sent 2.html">Verify OTP</a><br><br>
+            <label for="password">New Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="password"  id="password" placeholder="Enter new Password" required pattern="[A-Z]{1}[a-z]{4}[@]{1}[0-9]{4}"><br><br>
+            <label for="conform_password">Conform Password</label>
+            <input type="password"  id="conform_password" placeholder="Conform Password" pattern="[A-Z]{1}[a-z]{4}[@]{1}[0-9]{4}" required>
+    </fieldset><br><br>
+    <button>Log in</button>
+</form>
+</body>
+</html>
